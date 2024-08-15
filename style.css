@@ -1,0 +1,350 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff ;
+    color: #333;
+}
+
+header {
+    color:rgb(96, 118, 224);
+    background-color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+.search-form span{
+    color: #007BFF;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color:rgb(96, 118, 224);
+    color: #fff;
+    padding: 0.5rem 1rem;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+}
+
+.logo img {
+    border-radius: 90%;
+    width: 60px;
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-links {
+    float: right;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 17px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 2rem;
+}
+
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+.add{
+    color: #333;
+    background-color: #fff;
+}
+
+.nav-links  :hover {
+    text-decoration:underline;
+}
+
+/* Make the navigation bar responsive */
+@media (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+
+    .nav-links li {
+        margin: 0.5rem 0;
+    }
+}
+
+
+
+#event-list, #event-details, #confirmation-details {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.event-card {
+    width: 280px;
+    background-color: #cacfdd;
+    border: 3px solid #746b6b;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.event-card img {
+    width: 150px;
+    height: 100px;
+    margin-right: 1rem;
+}
+
+.event-card h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+/* Contact Section Styling */
+.contact-section {
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    padding: 0.75rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+/* Booking Form Styling */
+#booking-form-section {
+    padding: 2rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.hidden {
+    display: none;
+}
+
+#booking-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+input[type="time"],
+select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    padding: 0.75rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+section {
+    padding: 20px;
+}
+
+/* Search Form Styles */
+#search-form {
+    background-color:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    width: 230px;
+    height: 100%;
+    top: 150px;
+    left: 0px;
+    position: fixed;
+}
+
+#search-form input,
+#search-form select,
+#search-form button,
+#search-form label,#search-form span {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 204px;
+}
+#search-form select,#search-form button{
+    width: 215px;
+}
+.book-now{
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    margin-left: 550px;
+    color:rgb(96, 118, 224);
+    background-color: #f2f2f2;
+    border-radius: 12px;
+    border: 2px solid rgb(96, 118, 224);
+}
+ .hidden {
+            display: none;
+        }
+.book-now:hover {
+    background-color:rgb(96, 118, 224);
+    color:#fff;
+}
+
+/* Style for booking form when it is shown */
+#booking-form-section {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* Event List Styles */
+#event-list {
+    margin-left: 290px;
+    margin-bottom: 0px;
+   /* Adjust based on the width of the search form */
+}
+#event-details{
+    border: 1px solid #ddd;
+    width: 420px;
+    padding: 5px;
+    margin-bottom: 20px;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff;
+   box-shadow: 1px 1px 40px rgba(0 0 0 / 0.1);
+   margin-bottom: 20px;
+   border-radius: 10px;
+}
+
+.event-card {
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-bottom: 20px;
+    align-items: center;
+    gap: 10px;
+    background-color: #fff;
+   box-shadow: 1px 1px 40px rgba(0 0 0 / 0.1);
+   margin-bottom: 20px;
+   border-radius: 10px;
+
+   display:inline-flex;
+}
+
+
+.event-card img {
+    border-radius: 5px;
+}
+
+.event-card h2 {
+    margin: 0 0 10px 0;
+}
+
+.event-card p {
+    margin: 0 0 5px 0;
+}
+
+.event-card a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .event-details{
+      width: 10%;
+      position: relative;
+    }
+   
+  }

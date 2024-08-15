@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="logo2.jpg" alt="">
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="booking-confirmation.html">Booking</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Upcoming Events</h1>
+    </header>
+
+    <!-- Search Form -->
+    <section>
+        <form id="search-form"><span style="color: rgb(96, 118, 224); font-size: 20px;"><h3>Filter Events</h3></span>
+            <label>Search by Title</label>
+            <input type="text" id="keyword" placeholder="Search by keyword" />
+            <label>Date</label>
+            <input type="date" id="date" placeholder="Search by date" />
+            <label>Category</label>
+            <select id="category">
+                <option value="">All Categories</option>
+                <option value="Music">Music</option>
+                <option value="Sports">Sports</option>
+                <option value="Art">Art</option>
+                <option value="Technology">Technology</option>
+            </select>
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    <section id="event-list">
+        <a href="event-details.html?id=${event.id}" style="text-decoration:none">View Details</a>
+
+        <!-- Events will be dynamically loaded here -->
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

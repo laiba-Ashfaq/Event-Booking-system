@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "Music Concert",
+        "date": "2024-08-20",
+        "category": "Music",
+        "description": "An amazing music concert.",
+        "fulldescription": "Join us for an unforgettable evening at the Summer</br> Music Spectacular, where the magic of live music comes to life! </br>This outdoor concert will feature an incredible lineup of </br>renowned artists spanning various genres, </br>from rock and pop to jazz and classical ",
+        "image": "concert.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Art Exhibition",
+        "date": "2024-08-25",
+        "category": "Art",
+        "description": "Explore the latest in modern art.",
+        "fulldescription": "Join us for an unforgettable evening at the Summer</br> Music Spectacular, where the magic of live music comes to life! </br>This outdoor concert will feature an incredible lineup of </br>renowned artists spanning various genres, </br>from rock and pop to jazz and classical ",
+        "image": "carrer.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Tech Conference",
+        "date": "2024-09-01",
+        "category": "Technology",
+        "description": "Join the biggest tech event of the year.",
+        "fulldescription": "Join us for an unforgettable evening at the Summer</br> Music Spectacular, where the magic of live music comes to life! </br>This outdoor concert will feature an incredible lineup of </br>renowned artists spanning various genres, </br>from rock and pop to jazz and classical ",
+        "image": "tech.jpg"
+    }
+ 
+]
